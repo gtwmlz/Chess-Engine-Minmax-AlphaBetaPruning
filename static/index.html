@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Chess Engine Demo</title>
+  <link rel="stylesheet" href="/static/main.css" />
+</head>
+<body>
+  <h1>Chess Engine Demo (Minimax + Alpha-Beta)</h1>
+
+  <div id="board" style="width: 360px"></div>
+
+  <div class="controls">
+    <label>FEN: <input id="fen" size="60" /></label><br/>
+    <label>Depth: <input id="depth" type="number" value="3" min="1" max="6" /></label><br/>
+    <button id="setFen">Set FEN</button>
+    <button id="askMove">Ask Best Move</button>
+  </div>
+
+  <pre id="output"></pre>
+
+  <script src="/static/board.js"></script>
+</body>
+</html>

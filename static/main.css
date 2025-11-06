@@ -1,0 +1,13 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 24px;
+}
+.controls {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+pre {
+  background: #f7f7f7;
+  padding: 12px;
+  border-radius: 6px;
+}
